@@ -16,16 +16,16 @@
     header {
       background: #000;
       color: #fff;
-      text-align: center;
       padding: 18px;
+      text-align: center;
       font-size: 22px;
       font-weight: bold;
     }
 
     .hero {
-      text-align: center;
       padding: 30px 15px;
-      background: #ffffff;
+      text-align: center;
+      background: #fff;
     }
 
     .hero h1 {
@@ -38,19 +38,15 @@
     }
 
     .container {
-      padding: 20px;
-      max-width: 1000px;
+      padding: 15px;
+      max-width: 900px;
       margin: auto;
-    }
-
-    h2 {
-      margin-bottom: 15px;
     }
 
     .card {
       background: #fff;
       border-radius: 8px;
-      padding: 16px;
+      padding: 15px;
       margin-bottom: 15px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
@@ -66,72 +62,68 @@
     .btn {
       display: inline-block;
       margin-top: 10px;
-      padding: 8px 14px;
+      padding: 10px 14px;
       background: #000;
       color: #fff;
       text-decoration: none;
-      border-radius: 5px;
+      border-radius: 6px;
       font-size: 14px;
     }
 
     footer {
-      background: #000;
-      color: #fff;
       text-align: center;
-      padding: 12px;
+      padding: 15px;
       font-size: 14px;
-      margin-top: 30px;
+      background: #fff;
+      margin-top: 20px;
     }
   </style>
 </head>
 
 <body>
 
-  <header>
-    Class 10 Plus – RBSE Study App
-  </header>
+<header>
+  Class 10 Plus – RBSE Study Platform
+</header>
 
-  <div class="hero">
-    <h1>Welcome to Class 10 Plus</h1>
-    <p>RBSE Class 10 – All Subjects Study Material & Practice</p>
+<div class="hero">
+  <h1>Welcome to Class 10 Plus</h1>
+  <p>RBSE Class 10 students ke liye free study material, practice aur doubt solving</p>
+</div>
+
+<div class="container">
+
+  <!-- Study Material -->
+  <div class="card">
+    <h3>📘 Study Material</h3>
+    <p><b>Maths – Chapter 1 (Real Numbers)</b></p>
+    <ul>
+      <li>Euclid’s Division Lemma</li>
+      <li>HCF & LCM</li>
+      <li>Fundamental Theorem of Arithmetic</li>
+    </ul>
+    <a class="btn" href="#">View Notes</a>
   </div>
 
-  <div class="container">
-    <h2>📘 Study Material</h2>
-
-    <div class="card">
-      <h3>Maths – Chapter 1</h3>
-      <p><b>Real Numbers</b></p>
-      <ul>
-        <li>Euclid’s Division Lemma</li>
-        <li>HCF & LCM</li>
-        <li>Fundamental Theorem of Arithmetic</li>
-      </ul>
-      <a class="btn" href="#">View Notes</a>
-    </div>
-
-    <div class="card">
-      <h3>Science</h3>
-      <p>Important chapters for board exam</p>
-      <a class="btn" href="#">View Notes</a>
-    </div>
-
-    <div class="card">
-      <h3>✍ Practice Questions</h3>
-      <p>Previous years & important questions</p>
-      <a class="btn" href="#">Start Practice</a>
-    </div>
-
-    <div class="card">
-      <h3>❓ Doubt Solving</h3>
-      <p>Ask your doubts in study groups</p>
-      <a class="btn" href="#">Ask Doubt</a>
-    </div>
+  <!-- Practice Questions -->
+  <div class="card">
+    <h3>✍️ Practice Questions</h3>
+    <p>Board exam ke liye important practice questions.</p>
+    <a class="btn" href="#">Start Practice</a>
   </div>
 
-  <footer>
-    Made for students ❤️ | Class 10 Plus
-  </footer>
+  <!-- Doubt Solving -->
+  <div class="card">
+    <h3>❓ Doubt Solving</h3>
+    <p>Apne doubts poochho aur help pao.</p>
+    <a class="btn" href="#">Ask Doubt</a>
+  </div>
+
+</div>
+
+<footer>
+  Made for students ❤️ | Class 10 Plus
+</footer>
 
 </body>
-</html>
+</html>        
